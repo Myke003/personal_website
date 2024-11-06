@@ -1,0 +1,74 @@
+* {
+  color: #eeeeee;
+  font-family: "Montserrat";
+}
+
+#contact,
+.card,
+.navbar.down {
+  background-color: #222831;
+}
+
+.main-text {
+  font-weight: bold;
+}
+
+#hero {
+  background: linear-gradient(
+      to bottom,
+      rgba(34, 40, 49, 0.437),
+      rgba(34, 40, 49, 0.536)
+    ),
+    url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar,
+.navbar-brand,
+.nav-link {
+  color: #eeeeee !important;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.nav-link:hover {
+  color: #378ce7 !important;
+  transition: 150ms;
+}
+
+.btn {
+  background-color: #378ce7;
+  color: #eeeeee;
+}
+
+.btn:hover {
+  background-color: #378ce7;
+  color: #eeeeee;
+}
+
+main,
+.footer,
+.form-control {
+  background-color: #31363f;
+}
+
+.form-control {
+  border: none;
+  color: #eeeeee;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #31363f !important;
+  color: #eeeeee !important;
+}
+
+.iconos{
+  font-size: 20px;
+}
